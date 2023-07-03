@@ -19,8 +19,8 @@ class ExpensesList extends StatelessWidget {
         background: Container(
           color: Theme.of(context).colorScheme.error,
           alignment: Alignment.centerRight,
-          margin: EdgeInsets.symmetric(
-            horizontal: Theme.of(context).cardTheme.margin!.horizontal,
+          margin: const EdgeInsets.symmetric(
+            horizontal: 16,
             vertical: 8,
           ),
           child: const Icon(
